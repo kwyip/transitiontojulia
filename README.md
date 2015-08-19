@@ -11,14 +11,15 @@ Get familiar with Julia by translating commonly used programming languages to Ju
 | Action     | Matlab           | Julia  |
 | :------------- |:-------------| :-----|
 |Save file|`save 'file.mat'`|  |
-|Load file|`save 'file.mat'`| |
-|Quick help|`save 'file.mat'`|  |
+|Load file|`load 'file.mat'`| |
+|Quick help on a given command|`help command`|  |
+|Extensive help on a given command|`doc command`||
 |Define or change variable|| |
 ||`x = 3`| `x = 3`|
 ||`x = [1 2 3]`| `x = [1,2,3]`|
-||`x = [1 2 3];`| |
+||`x = [1 2 3];`| `x = [1 2 3];`|
 ||`x = [1;2;3]`| |
-||`A = [1 2 3 4;5 6 7 8;9 10 11 12];`| |
+||`A = [1 2 3 4;5 6 7 8;9 10 11 12];`|`A = [1 2 3 4;5 6 7 8;9 10 11 12];` |
 ||`x(2) = 7`|`x[2] = 7` |
 ||`A(2,1) = 0`| `A[2,1] = 0`|
 |Arithmetic and functions of numbers:|| |
