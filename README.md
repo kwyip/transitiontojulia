@@ -9,7 +9,7 @@ Get familiar with Julia by translating commonly used programming languages to Ju
 
 ####Matlab
 | Action     | Matlab           | Julia  |
-| ------------- |:-------------| :-----|
+| :------------- |:-------------| :-----|
 |Save file|`save 'file.mat'`|  |
 |Load file|`save 'file.mat'`| |
 |Quick help|`save 'file.mat'`|  |
