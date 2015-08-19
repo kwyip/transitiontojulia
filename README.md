@@ -22,7 +22,7 @@ Get familiar with Julia by translating commonly used programming languages to Ju
 ||`x(2) = 7`|`x[2] = 7` |
 ||`A(2,1) = 0`| `A[2,1] = 0`|
 |Arithmetic and functions of numbers:|| |
-||`3*4, 7+4, 2-6 8/3`| `3*4, 7+4, 2-6, 8/3`|
+||`3*4, 7+4, 2-6, 8/3`| `3*4, 7+4, 2-6, 8/3`|
 ||`3^7, 3^(8+2i)`|`3^7, 3^(8+2im)` |
 ||`sqrt(-5)`| `sqrt(-5+0im)`|
 ||`exp(12)`| `exp(12)`|
