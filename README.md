@@ -11,13 +11,18 @@ Ka Wa Yip
 * Java
 * Numpy
 
-####Matlab
+####Matlab<->Julia
 | Action     | Matlab           | Julia  |
 | :------------- |:-------------| :-----|
 |Save file|`save 'file.mat'`|  |
 |Load file|`load 'file.mat'`| |
 |Quick help on a given command|`help command`|  |
 |Extensive help on a given command|`doc command`||
+|Browse help interactively|`doc`||
+|Help on using help|`help help` or `doc doc`||
+|Help for a function|`help plot`||
+|Help for a toolbox/library package|`help splines` or `doc splines`||
+|Demonstration examples|`demo`||
 |Define or change variable|| |
 ||`x = 3`| `x = 3`|
 ||`x = [1 2 3]`| `x = [1,2,3]`|
@@ -37,9 +42,13 @@ Ka Wa Yip
 |||`besselj(2,6)` |
 
 
-####Python
+####Python<->Julia
 | Action     | Numpy          | Julia  |
 | ------------- |:-------------| :-----|
+|Browse help interactively|`help()`||
+|Help on using help|`help`||
+|Help for a function|`help(plot)` or `?plot`||
+|Help for a toolbox/library package|`help(pylab)`||
 |Arithmetic|| |
 ||`a=1`| |
 ||`a + b` or `add(a,b)`| |
