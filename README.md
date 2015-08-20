@@ -39,7 +39,7 @@ Ka Wa Yip
 ||`log(3), log10(100)`|`log(3), log10(100)` |
 ||`abs(-5)`|`abs(-5)` |
 ||`sin(5*pi/3)`|`sin(5pi/3)` |
-|||`besselj(2,6)` |
+||`besselj(2,6)`|`besselj(2,6)` |
 
 
 ####Python<->Julia
