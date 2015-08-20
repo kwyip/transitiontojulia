@@ -47,16 +47,16 @@ Ka Wa Yip
 | ------------- |:-------------| :-----|
 |Browse help interactively|`help()`||
 |Help on using help|`help`||
-|Help for a function|`help(plot)` or `?plot`||
+|Help for a function|`help(plot)` or `?plot`|`help(plot)`|
 |Help for a toolbox/library package|`help(pylab)`||
 |Arithmetic|| |
-||`a=1`| |
-||`a + b` or `add(a,b)`| |
-||`a - b` or `subtract(a,b)`| |
-||`a * b` or `multiply(a,b)`| |
-||`a / b` or `divide(a,b)`| |
-||`a ** b`| |
-||`a % b`||
+||`a=1`|`a=1` |
+||`a + b` or `add(a,b)`|`a+b` |
+||`a - b` or `subtract(a,b)`|`a - b` |
+||`a * b` or `multiply(a,b)`|`a * b` |
+||`a / b` or `divide(a,b)`| `a / b`|
+||`a ** b`|`a ^ b` |
+||`a % b`|`a % b`|
 
 
 ####Java
