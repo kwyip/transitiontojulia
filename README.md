@@ -9,7 +9,7 @@ Ka Wa Yip
 
 * Matlab
 * Java
-* Numpy
+* Python
 
 ####Matlab<->Julia
 | Action     | Matlab           | Julia  |
@@ -18,9 +18,9 @@ Ka Wa Yip
 |Load file|`load 'file.mat'`| |
 |Quick help on a given command|`help command`|  |
 |Extensive help on a given command|`doc command`||
-|Browse help interactively|`doc`||
-|Help on using help|`help help` or `doc doc`||
-|Help for a function|`help plot`||
+|Browse help interactively|`doc`|julialang.org|
+|Help on using help|`help help` or `doc doc`|`help()`|
+|Help for a function|`help plot`|`help(plot)`|
 |Help for a toolbox/library package|`help splines` or `doc splines`||
 |Demonstration examples|`demo`||
 |Define or change variable|| |
@@ -40,10 +40,16 @@ Ka Wa Yip
 ||`abs(-5)`|`abs(-5)` |
 ||`sin(5*pi/3)`|`sin(5pi/3)` |
 ||`besselj(2,6)`|`besselj(2,6)` |
+|Portions of matrices and vectors:|| |
+|||`x[2:12]` |
+|||`x[2:end]` |
+|||`A[5,1:3]` |
+|||`A[5,:]` |
+|||`diag(A)` |
 
 
 ####Python<->Julia
-| Action     | Numpy          | Julia  |
+| Action     | Numpy, Matplotlib         | Julia  |
 | ------------- |:-------------| :-----|
 |Browse help interactively|`help()`||
 |Help on using help|`help`||
@@ -57,6 +63,10 @@ Ka Wa Yip
 ||`a / b` or `divide(a,b)`| `a / b`|
 ||`a ** b`|`a ^ b` |
 ||`a % b`|`a % b`|
+|Plotting|| |
+||`savefig(“fig.png”)`|`savefig(“fig.png”)` |
+||| |
+||| |
 
 
 ####Java
